@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LibrariesDefinitions xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ifm.com/xml/schema/2018/06/libraries">
+  <Libraries>
+    <Library>
+      <Key>LibA</Key>
+      <Name>Controller Library 1</Name>
+      <Description i:nil="true" />
+      <Versions>
+        <Versions>
+          <Key>V1</Key>
+          <Version>1.0.0</Version>
+          <Description>Desc</Description>
+          <IsDefault>false</IsDefault>
+          <Files>
+            <File>
+              <Url>/libs/LibA_V1.lib</Url>
+            </File>            
+          </Files>
+        </Versions>
+      </Versions>
+    </Library>
+	
+	  <Library>
+      <Key>LibB</Key>
+      <Name>Controller Library 2</Name>
+      <Description i:nil="true" />
+      <Versions>
+        <Versions>
+          <Key>V1</Key>
+          <Version>1.0.0</Version>
+          <Description>Desc</Description>
+          <IsDefault>false</IsDefault>
+          <Files>
+            <File>
+              <Url>/libs/LibB_V1.lib</Url>
+            </File>            
+          </Files>
+        </Versions>
+		
+		  <Versions>
+          <Key>V2</Key>
+          <Version>2.0.0</Version>
+          <Description>Desc</Description>
+          <IsDefault>false</IsDefault>
+          <Files>
+            <File>
+              <Url>/libs/LibB_V1.lib</Url>
+            </File>            
+          </Files>
+        </Versions>
+		
+      </Versions>
+    </Library>
+  </Libraries>
+</LibrariesDefinitions>
